@@ -53,4 +53,4 @@ Result will be as follow in json:
 }
 
 To view the uploaded file, refer to the following document to trigger the function by passing in file_name value into document_name
-https://doc.1id.ai/#operation/view-upload
+[1id API Document](https://doc.1id.ai/#operation/view-upload)
