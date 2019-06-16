@@ -41,9 +41,10 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
             Log.e("Result", returnedResult);
             try {
                 JSONObject json = new JSONObject(returnedResult);
-                String fileId = json.getString("id");
-                String fileType = json.getString("type");
-                String fileName = json.getString("file_name");
+                String status = json.getString("status");
+                String type = json.getString("type");
+                String message = json.getString("message");
+                String selfieImage = json.getString("selfie_image");
 
                 //Perform your logic here
             } catch (Exception e) {
