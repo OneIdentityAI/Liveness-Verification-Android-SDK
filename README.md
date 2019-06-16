@@ -56,9 +56,10 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 Result will be as follow in json:
 ```
 {
-	"id":"e69f81d0-7f5d-11e9-a703-bdbc41d5c7bb",
-	"type":"selfie",
-	"file_name":"f46e42c0-7fac-11e9-8fea-15efd267c941.jpg"
+    "status": "200",
+    "type": "ok",
+    "message": "Liveness verification successful",
+    "selfie_image": "a3e40f30-7659-11e9-bada-bf2c9bd03a26.png"
 }
 ```
 To view the uploaded file, refer to the following document to trigger the function by passing in file_name value into document_name
